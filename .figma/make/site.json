@@ -1,0 +1,10 @@
+{
+  "description": "Connects customers with local farmers by enabling browsing, ordering, payment, and tracking of fresh agricultural products in a modern marketplace.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

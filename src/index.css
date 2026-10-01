@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --color-primary: #2d6a4f;
+  --color-primary-dark: #1b4332;
+  --color-primary-darker: #0d2818;
+  --color-primary-light: #52b788;
+  --color-primary-lighter: #95d5b2;
+  --color-primary-50: #f0fdf4;
+  --color-primary-100: #dcfce7;
+  --color-accent: #d8f3dc;
+  --color-cream: #fefae0;
+  --color-amber: #f59e0b;
+  --color-amber-light: #fef3c7;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #95d5b2 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #95d5b2;
+  border-radius: 3px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  background: #ffffff;
+  color: #1b1b1b;
+}
+
+.font-display {
+  font-family: 'DM Serif Display', Georgia, serif;
+}
+
+.font-mono {
+  font-family: 'DM Mono', monospace;
+}
+
+/* Transition utilities */
+.transition-base {
+  transition: all 0.2s ease;
+}
+
+/* Star rating */
+.star-filled {
+  color: #f59e0b;
+}
+
+.star-empty {
+  color: #d1d5db;
+}
